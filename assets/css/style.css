@@ -1,0 +1,268 @@
+/* reset code */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color: #333;
+}
+
+ol, ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+  transition: .3s;
+}
+
+img, video{
+  width: 100%;
+  vertical-align: middle;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* header area css */
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo a {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.menu ul {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: repeat(5, auto);
+}
+
+.menu ul li a {
+  margin-left: 25px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.menu ul li a:hover {
+  color: #ff7720;
+}
+
+
+/* banner area css */
+
+.banner {
+  border: 3px solid #ddd;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+/* about area css */
+
+.about-area {
+  padding: 80px 0;
+  background-color: #f7f7f7;
+}
+
+.section-title h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  text-align: center;
+  border-bottom: 3px solid #ff7720;
+  width: 198px;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+}
+
+.section-title p {
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.single-about i {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.single-about h4 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+/* service area css */
+
+.service-area {
+  padding: 80px 0;
+}
+
+.service-area .section-title h2{
+  width: 268px;
+}
+
+.service {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 20px;
+  padding-top: 50px;
+}
+
+.single-service {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.single-service h4 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+  background-color: teal;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  background-color: tomato;
+  color: #fff;
+  padding: 8px 20px;
+}
+
+.btn:hover {
+  background-color: #ff7720;
+}
+
+/* service area css */
+
+.gallery-area .section-title h2{
+  width: 238px;
+}
+
+.gallery-area {
+  padding: 80px 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 20px;
+  padding-top: 30px;
+}
+
+/* contact area css */
+.contact-area {
+  padding: 50px 0;
+}
+
+.contact-area .section-title h2 {
+  width: 232px;
+}
+
+.contact {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 10px;
+}
+
+.form{
+  margin-right: 20px;
+}
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.form textarea {
+  width: 100%;
+  padding: 30px 20px;
+  margin-bottom: 15px;
+}
+
+.form input[type="submit"] {
+  width: 100px;
+  background-color: tomato;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #ff7720;
+}
+
+.single-address {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 5fr;
+  margin-bottom: 20px;
+}
+
+.single-address i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: tomato;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.single-address h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.single-address h4 span {
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+}
+
+
+/* footer area css */
+
+.footer-area{
+  padding: 20px 0;
+  background-color: teal;
+}
+
+.footer p {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+}
